@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="Caja_reportes_DS" targetNamespace="http://tempuri.org/Caja_reportes_DS.xsd" xmlns:mstns="http://tempuri.org/Caja_reportes_DS.xsd" xmlns="http://tempuri.org/Caja_reportes_DS.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="Caja_reportes_DS" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="Caja_reportes_DS" msprop:Generator_UserDSName="Caja_reportes_DS">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="CAJA" msprop:Generator_TableClassName="CAJADataTable" msprop:Generator_TableVarName="tableCAJA" msprop:Generator_TablePropName="CAJA" msprop:Generator_RowDeletingName="CAJARowDeleting" msprop:Generator_RowChangingName="CAJARowChanging" msprop:Generator_RowEvHandlerName="CAJARowChangeEventHandler" msprop:Generator_RowDeletedName="CAJARowDeleted" msprop:Generator_UserTableName="CAJA" msprop:Generator_RowChangedName="CAJARowChanged" msprop:Generator_RowEvArgName="CAJARowChangeEvent" msprop:Generator_RowClassName="CAJARow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="fecha_apertura" msprop:Generator_ColumnVarNameInTable="columnfecha_apertura" msprop:Generator_ColumnPropNameInRow="fecha_apertura" msprop:Generator_ColumnPropNameInTable="fecha_aperturaColumn" msprop:Generator_UserColumnName="fecha_apertura" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="fecha_cierre" msprop:Generator_ColumnVarNameInTable="columnfecha_cierre" msprop:Generator_ColumnPropNameInRow="fecha_cierre" msprop:Generator_ColumnPropNameInTable="fecha_cierreColumn" msprop:Generator_UserColumnName="fecha_cierre" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="monto_inicial" msprop:Generator_ColumnVarNameInTable="columnmonto_inicial" msprop:Generator_ColumnPropNameInRow="monto_inicial" msprop:Generator_ColumnPropNameInTable="monto_inicialColumn" msprop:Generator_UserColumnName="monto_inicial" type="xs:decimal" minOccurs="0" />
+              <xs:element name="total_efectivo" msprop:Generator_ColumnVarNameInTable="columntotal_efectivo" msprop:Generator_ColumnPropNameInRow="total_efectivo" msprop:Generator_ColumnPropNameInTable="total_efectivoColumn" msprop:Generator_UserColumnName="total_efectivo" type="xs:decimal" minOccurs="0" />
+              <xs:element name="total_egreso" msprop:Generator_ColumnVarNameInTable="columntotal_egreso" msprop:Generator_ColumnPropNameInRow="total_egreso" msprop:Generator_ColumnPropNameInTable="total_egresoColumn" msprop:Generator_UserColumnName="total_egreso" type="xs:decimal" minOccurs="0" />
+              <xs:element name="total_tarjeta" msprop:Generator_ColumnVarNameInTable="columntotal_tarjeta" msprop:Generator_ColumnPropNameInRow="total_tarjeta" msprop:Generator_ColumnPropNameInTable="total_tarjetaColumn" msprop:Generator_UserColumnName="total_tarjeta" type="xs:decimal" minOccurs="0" />
+              <xs:element name="total_neto" msprop:Generator_ColumnVarNameInTable="columntotal_neto" msprop:Generator_ColumnPropNameInRow="total_neto" msprop:Generator_ColumnPropNameInTable="total_netoColumn" msprop:Generator_UserColumnName="total_neto" type="xs:decimal" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="CAJA_DETALLE" msprop:Generator_TableClassName="CAJA_DETALLEDataTable" msprop:Generator_TableVarName="tableCAJA_DETALLE" msprop:Generator_TablePropName="CAJA_DETALLE" msprop:Generator_RowDeletingName="CAJA_DETALLERowDeleting" msprop:Generator_RowChangingName="CAJA_DETALLERowChanging" msprop:Generator_RowEvHandlerName="CAJA_DETALLERowChangeEventHandler" msprop:Generator_RowDeletedName="CAJA_DETALLERowDeleted" msprop:Generator_UserTableName="CAJA_DETALLE" msprop:Generator_RowChangedName="CAJA_DETALLERowChanged" msprop:Generator_RowEvArgName="CAJA_DETALLERowChangeEvent" msprop:Generator_RowClassName="CAJA_DETALLERow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Concepto" msprop:Generator_ColumnVarNameInTable="columnConcepto" msprop:Generator_ColumnPropNameInRow="Concepto" msprop:Generator_ColumnPropNameInTable="ConceptoColumn" msprop:Generator_UserColumnName="Concepto" type="xs:string" minOccurs="0" />
+              <xs:element name="Importe_ingreso" msprop:Generator_ColumnVarNameInTable="columnImporte_ingreso" msprop:Generator_ColumnPropNameInRow="Importe_ingreso" msprop:Generator_ColumnPropNameInTable="Importe_ingresoColumn" msprop:Generator_UserColumnName="Importe_ingreso" type="xs:string" minOccurs="0" />
+              <xs:element name="Importe_egreso" msprop:Generator_ColumnVarNameInTable="columnImporte_egreso" msprop:Generator_ColumnPropNameInRow="Importe_egreso" msprop:Generator_ColumnPropNameInTable="Importe_egresoColumn" msprop:Generator_UserColumnName="Importe_egreso" type="xs:string" minOccurs="0" />
+              <xs:element name="Tipo_movimiento" msprop:Generator_ColumnVarNameInTable="columnTipo_movimiento" msprop:Generator_ColumnPropNameInRow="Tipo_movimiento" msprop:Generator_ColumnPropNameInTable="Tipo_movimientoColumn" msprop:Generator_UserColumnName="Tipo_movimiento" type="xs:string" minOccurs="0" />
+              <xs:element name="Usuario" msprop:Generator_ColumnVarNameInTable="columnUsuario" msprop:Generator_ColumnPropNameInRow="Usuario" msprop:Generator_ColumnPropNameInTable="UsuarioColumn" msprop:Generator_UserColumnName="Usuario" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="Ds_ajuste_masivo" targetNamespace="http://tempuri.org/Ds_ajuste_masivo.xsd" xmlns:mstns="http://tempuri.org/Ds_ajuste_masivo.xsd" xmlns="http://tempuri.org/Ds_ajuste_masivo.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="Ds_ajuste_masivo" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="Ds_ajuste_masivo" msprop:Generator_UserDSName="Ds_ajuste_masivo">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="Articulos_agregados" msprop:Generator_TableClassName="Articulos_agregadosDataTable" msprop:Generator_TableVarName="tableArticulos_agregados" msprop:Generator_TablePropName="Articulos_agregados" msprop:Generator_RowDeletingName="Articulos_agregadosRowDeleting" msprop:Generator_RowChangingName="Articulos_agregadosRowChanging" msprop:Generator_RowEvHandlerName="Articulos_agregadosRowChangeEventHandler" msprop:Generator_RowDeletedName="Articulos_agregadosRowDeleted" msprop:Generator_UserTableName="Articulos_agregados" msprop:Generator_RowChangedName="Articulos_agregadosRowChanged" msprop:Generator_RowEvArgName="Articulos_agregadosRowChangeEvent" msprop:Generator_RowClassName="Articulos_agregadosRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Condicion" msprop:Generator_ColumnVarNameInTable="columnCondicion" msprop:Generator_ColumnPropNameInRow="Condicion" msprop:Generator_ColumnPropNameInTable="CondicionColumn" msprop:Generator_UserColumnName="Condicion" type="xs:string" minOccurs="0" />
+              <xs:element name="Descripción" msprop:Generator_ColumnVarNameInTable="columnDescripción" msprop:Generator_ColumnPropNameInRow="Descripción" msprop:Generator_ColumnPropNameInTable="DescripciónColumn" msprop:Generator_UserColumnName="Descripción" type="xs:string" minOccurs="0" />
+              <xs:element name="ID_masivo" msprop:Generator_ColumnVarNameInTable="columnID_masivo" msprop:Generator_ColumnPropNameInRow="ID_masivo" msprop:Generator_ColumnPropNameInTable="ID_masivoColumn" msprop:Generator_UserColumnName="ID_masivo" type="xs:int" minOccurs="0" />
+              <xs:element name="ID_nrocat" msprop:Generator_ColumnVarNameInTable="columnID_nrocat" msprop:Generator_ColumnPropNameInRow="ID_nrocat" msprop:Generator_ColumnPropNameInTable="ID_nrocatColumn" msprop:Generator_UserColumnName="ID_nrocat" type="xs:int" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="aux_categorias" msprop:Generator_TableClassName="aux_categoriasDataTable" msprop:Generator_TableVarName="tableaux_categorias" msprop:Generator_TablePropName="aux_categorias" msprop:Generator_RowDeletingName="aux_categoriasRowDeleting" msprop:Generator_RowChangingName="aux_categoriasRowChanging" msprop:Generator_RowEvHandlerName="aux_categoriasRowChangeEventHandler" msprop:Generator_RowDeletedName="aux_categoriasRowDeleted" msprop:Generator_UserTableName="aux_categorias" msprop:Generator_RowChangedName="aux_categoriasRowChanged" msprop:Generator_RowEvArgName="aux_categoriasRowChangeEvent" msprop:Generator_RowClassName="aux_categoriasRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="idcat" msprop:Generator_ColumnVarNameInTable="columnidcat" msprop:Generator_ColumnPropNameInRow="idcat" msprop:Generator_ColumnPropNameInTable="idcatColumn" msprop:Generator_UserColumnName="idcat" type="xs:int" minOccurs="0" />
+              <xs:element name="nrocat" msprop:Generator_ColumnVarNameInTable="columnnrocat" msprop:Generator_ColumnPropNameInRow="nrocat" msprop:Generator_ColumnPropNameInTable="nrocatColumn" msprop:Generator_UserColumnName="nrocat" type="xs:int" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
