@@ -2489,3 +2489,7 @@ C:\Repositorio HS2020\HS2020\Delicias\Aplicacion\obj\x86\Debug\Aplicacion.msj_es
 C:\Repositorio HS2020\HS2020\Delicias\Aplicacion\obj\x86\Debug\Aplicacion.Ajuste_masivo_a.resources
 C:\Repositorio HS2020\HS2020\Delicias\Aplicacion\obj\x86\Debug\Aplicacion.Ajuste_masivo_b.resources
 C:\Repositorio HS2020\HS2020\Delicias\Aplicacion\obj\x86\Debug\Aplicacion.Ajuste_precios.resources
+C:\Repositorio Delicias_cliente\Delicias_cliente\Delicias\Aplicacion\bin\Debug\Aplicacion.exe.config
+C:\Repositorio Delicias_cliente\Delicias_cliente\Delicias\Aplicacion\obj\x86\Debug\Aplicacion.exe
+C:\Repositorio Delicias_cliente\Delicias_cliente\Delicias\Aplicacion\obj\x86\Debug\Aplicacion.xml
+C:\Repositorio Delicias_cliente\Delicias_cliente\Delicias\Aplicacion\obj\x86\Debug\Aplicacion.pdb

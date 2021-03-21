@@ -27,18 +27,18 @@ Partial Class Inicio
         Me.BO_USU_sesion = New System.Windows.Forms.Button()
         Me.BO_USU_cerrar = New System.Windows.Forms.Button()
         Me.GroupBox1 = New System.Windows.Forms.GroupBox()
+        Me.IM_ERROR = New System.Windows.Forms.PictureBox()
+        Me.LB_USU_inv = New System.Windows.Forms.Label()
         Me.Label1 = New System.Windows.Forms.Label()
         Me.TB_USU_cont = New System.Windows.Forms.TextBox()
         Me.Label21 = New System.Windows.Forms.Label()
         Me.TB_USU_usu = New System.Windows.Forms.TextBox()
         Me.PictureBox1 = New System.Windows.Forms.PictureBox()
         Me.Timer1 = New System.Windows.Forms.Timer(Me.components)
-        Me.IM_ERROR = New System.Windows.Forms.PictureBox()
-        Me.LB_USU_inv = New System.Windows.Forms.Label()
         Me.ToolTip1 = New System.Windows.Forms.ToolTip(Me.components)
         Me.GroupBox1.SuspendLayout()
-        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.IM_ERROR, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'BO_USU_sesion
@@ -81,65 +81,7 @@ Partial Class Inicio
         Me.GroupBox1.Size = New System.Drawing.Size(480, 202)
         Me.GroupBox1.TabIndex = 94
         Me.GroupBox1.TabStop = False
-        Me.GroupBox1.Text = "Sesión de Usuario"
-        '
-        'Label1
-        '
-        Me.Label1.AutoSize = True
-        Me.Label1.BackColor = System.Drawing.Color.Transparent
-        Me.Label1.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label1.ForeColor = System.Drawing.Color.DarkSlateGray
-        Me.Label1.Location = New System.Drawing.Point(13, 121)
-        Me.Label1.Margin = New System.Windows.Forms.Padding(6, 0, 6, 0)
-        Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(165, 33)
-        Me.Label1.TabIndex = 71
-        Me.Label1.Text = "Contraseña"
-        '
-        'TB_USU_cont
-        '
-        Me.TB_USU_cont.Location = New System.Drawing.Point(153, 116)
-        Me.TB_USU_cont.Margin = New System.Windows.Forms.Padding(6)
-        Me.TB_USU_cont.Name = "TB_USU_cont"
-        Me.TB_USU_cont.PasswordChar = Global.Microsoft.VisualBasic.ChrW(42)
-        Me.TB_USU_cont.Size = New System.Drawing.Size(298, 40)
-        Me.TB_USU_cont.TabIndex = 2
-        Me.TB_USU_cont.Tag = ""
-        Me.TB_USU_cont.UseSystemPasswordChar = True
-        '
-        'Label21
-        '
-        Me.Label21.AutoSize = True
-        Me.Label21.BackColor = System.Drawing.Color.Transparent
-        Me.Label21.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label21.ForeColor = System.Drawing.Color.DarkSlateGray
-        Me.Label21.Location = New System.Drawing.Point(13, 49)
-        Me.Label21.Margin = New System.Windows.Forms.Padding(6, 0, 6, 0)
-        Me.Label21.Name = "Label21"
-        Me.Label21.Size = New System.Drawing.Size(116, 33)
-        Me.Label21.TabIndex = 69
-        Me.Label21.Text = "Usuario"
-        '
-        'TB_USU_usu
-        '
-        Me.TB_USU_usu.Location = New System.Drawing.Point(153, 44)
-        Me.TB_USU_usu.Margin = New System.Windows.Forms.Padding(6)
-        Me.TB_USU_usu.Name = "TB_USU_usu"
-        Me.TB_USU_usu.Size = New System.Drawing.Size(298, 40)
-        Me.TB_USU_usu.TabIndex = 0
-        Me.TB_USU_usu.Tag = ""
-        '
-        'PictureBox1
-        '
-        Me.PictureBox1.BackColor = System.Drawing.Color.Transparent
-        Me.PictureBox1.Image = CType(resources.GetObject("PictureBox1.Image"), System.Drawing.Image)
-        Me.PictureBox1.Location = New System.Drawing.Point(18, 20)
-        Me.PictureBox1.Margin = New System.Windows.Forms.Padding(6)
-        Me.PictureBox1.Name = "PictureBox1"
-        Me.PictureBox1.Size = New System.Drawing.Size(176, 185)
-        Me.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
-        Me.PictureBox1.TabIndex = 93
-        Me.PictureBox1.TabStop = False
+        Me.GroupBox1.Text = "Bienvenido! - Sesión de Usuario"
         '
         'IM_ERROR
         '
@@ -163,9 +105,67 @@ Partial Class Inicio
         Me.LB_USU_inv.Location = New System.Drawing.Point(194, 172)
         Me.LB_USU_inv.Margin = New System.Windows.Forms.Padding(6, 0, 6, 0)
         Me.LB_USU_inv.Name = "LB_USU_inv"
-        Me.LB_USU_inv.Size = New System.Drawing.Size(274, 25)
+        Me.LB_USU_inv.Size = New System.Drawing.Size(198, 17)
         Me.LB_USU_inv.TabIndex = 236
         Me.LB_USU_inv.Text = "Usuario o Contraseña Inválida"
+        '
+        'Label1
+        '
+        Me.Label1.AutoSize = True
+        Me.Label1.BackColor = System.Drawing.Color.Transparent
+        Me.Label1.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label1.ForeColor = System.Drawing.Color.DarkSlateGray
+        Me.Label1.Location = New System.Drawing.Point(13, 121)
+        Me.Label1.Margin = New System.Windows.Forms.Padding(6, 0, 6, 0)
+        Me.Label1.Name = "Label1"
+        Me.Label1.Size = New System.Drawing.Size(106, 24)
+        Me.Label1.TabIndex = 71
+        Me.Label1.Text = "Contraseña"
+        '
+        'TB_USU_cont
+        '
+        Me.TB_USU_cont.Location = New System.Drawing.Point(153, 116)
+        Me.TB_USU_cont.Margin = New System.Windows.Forms.Padding(6)
+        Me.TB_USU_cont.Name = "TB_USU_cont"
+        Me.TB_USU_cont.PasswordChar = Global.Microsoft.VisualBasic.ChrW(42)
+        Me.TB_USU_cont.Size = New System.Drawing.Size(298, 29)
+        Me.TB_USU_cont.TabIndex = 2
+        Me.TB_USU_cont.Tag = ""
+        Me.TB_USU_cont.UseSystemPasswordChar = True
+        '
+        'Label21
+        '
+        Me.Label21.AutoSize = True
+        Me.Label21.BackColor = System.Drawing.Color.Transparent
+        Me.Label21.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label21.ForeColor = System.Drawing.Color.DarkSlateGray
+        Me.Label21.Location = New System.Drawing.Point(13, 49)
+        Me.Label21.Margin = New System.Windows.Forms.Padding(6, 0, 6, 0)
+        Me.Label21.Name = "Label21"
+        Me.Label21.Size = New System.Drawing.Size(74, 24)
+        Me.Label21.TabIndex = 69
+        Me.Label21.Text = "Usuario"
+        '
+        'TB_USU_usu
+        '
+        Me.TB_USU_usu.Location = New System.Drawing.Point(153, 44)
+        Me.TB_USU_usu.Margin = New System.Windows.Forms.Padding(6)
+        Me.TB_USU_usu.Name = "TB_USU_usu"
+        Me.TB_USU_usu.Size = New System.Drawing.Size(298, 29)
+        Me.TB_USU_usu.TabIndex = 0
+        Me.TB_USU_usu.Tag = ""
+        '
+        'PictureBox1
+        '
+        Me.PictureBox1.BackColor = System.Drawing.Color.Transparent
+        Me.PictureBox1.Image = CType(resources.GetObject("PictureBox1.Image"), System.Drawing.Image)
+        Me.PictureBox1.Location = New System.Drawing.Point(18, 20)
+        Me.PictureBox1.Margin = New System.Windows.Forms.Padding(6)
+        Me.PictureBox1.Name = "PictureBox1"
+        Me.PictureBox1.Size = New System.Drawing.Size(176, 185)
+        Me.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
+        Me.PictureBox1.TabIndex = 93
+        Me.PictureBox1.TabStop = False
         '
         'Inicio
         '
@@ -188,8 +188,8 @@ Partial Class Inicio
         Me.Text = "Sistema de Gestión de Ventas - HAMERSOFT"
         Me.GroupBox1.ResumeLayout(False)
         Me.GroupBox1.PerformLayout()
-        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.IM_ERROR, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
 
     End Sub
